@@ -1,0 +1,34 @@
+// Total Time 
+TIME		120000
+
+// number of spatial grid points; should be divisible by the number of computational nodes
+N 		1000
+
+// spatial grid spacing
+A		0.2
+
+// temporal grid spacing
+EPS		0.0001
+
+
+//
+// Physical parameters used in potentials
+//
+
+// Reduced mass; charmonium reduced mass is 1.3/2; bottomonium reduced mass is 4.7/2
+MASS		1.0
+
+// temperature 
+T		1.01
+
+// number of contributing quark flavors
+NF		2
+
+//
+GAMMA_E		1
+
+//Strong Coupling
+ALPHA_S		0.13
+
+//
+N_C		3

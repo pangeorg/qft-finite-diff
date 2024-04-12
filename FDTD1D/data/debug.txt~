@@ -1,0 +1,41 @@
+ ------General Information------- 
+
+Gridpoints: 2000 Spatial Step: 0.02 Time Step: (5e-05,0)
+Energy of initial wavefunction (without norm): (1.88073,0)
+Norm of inital wavefunction: (1.33134,0)
+Normalized energy: (1.41266,0)
+
+-------------General Information-------------- 
+Potential: osc
+Initial: gauss
+
+-------------Results--------------- 
+
+Energy of ground state: (1.49992,0)
+Error in Energy_ground: 199.985 %
+Last normalization: (1,0)
+Energy of excited States: 0 (4.37613,0)
+Energy of excited States: 1 (1.75121,0)
+Energy of excited States: 2 (0.79472,0)
+Energy of excited States: 3 (0.519215,0)
+Energy of excited States: 4 (0.385708,0)
+Energy of excited States: 5 (0.306816,0)
+Energy of excited States: 6 (0.254715,0)
+Energy of excited States: 7 (0.217739,0)
+Energy of excited States: 8 (0.190138,0)
+Energy of excited States: 9 (0.168747,0)
+Energy of excited States: 10 (0.151682,0)
+Energy of excited States: 11 (0.137752,0)
+Energy of excited States: 12 (0.126165,0)
+Energy of excited States: 13 (0.116376,0)
+Energy of excited States: 14 (0.107997,0)
+Energy of excited States: 15 (0.100743,0)
+Energy of excited States: 16 (0.0944024,0)
+Energy of excited States: 17 (0.0888127,0)
+Energy of excited States: 18 (0.083848,0)
+Energy of excited States: 19 (0.0794089,0)
+
+-------------Runtime--------------- 
+
+Update Runtime: 3.096 min.
+Time per loop: 0.00232197 sec.

@@ -1,0 +1,21 @@
+ ------General Information------- 
+
+Gridpoints: 100 Spatial Step: 0.05 Time Step: (0.001,0) Alpha: 0.1
+Energy of initial wavefunction (without norm): (20,0)
+Norm of inital wavefunction: (0.223607,0)
+Normalized energy: (89.4427,0)
+
+-----Data before realtime evoluton ------ 
+Potential: osc
+Initial: delta peak
+Energy of ground state: (0.505322,0)
+Error in Energy_ground: 1.06438 %
+Last normalization: (1,0)
+Update Runtime: 0.334167 min.
+Time per loop: 0.00010025 sec.
+-----Data after realtime evoluton ------ 
+Energy of ground state: (0.505322,0)
+Error in Energy_ground: 1.06438 %
+Last normalization: (1,0)
+Update Runtime: 0.334167 min.
+Time per loop: 0.00100245 sec.

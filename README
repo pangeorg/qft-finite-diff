@@ -1,0 +1,48 @@
+-------------------------------------------------------------
+-------------3 FINITE DIFFERENCE SOLVERS---------------------
+-------------------------------------------------------------
+
+----------------------FDTDCN---------------------------------
+
+Here the Crank Nicolson Method is used. 
+Format of data obtained via integration is as follows:
+
+Spatial Coordinate | real(psi) | imag(psi) | |psi|² 
+
+Decay:
+To get energy of wave use fitprogram like GNUPLOT with 
+'decay.txt'
+
+First column is the elapsed time, second and third column are 
+the real and imaginary parts.
+
+---------------------FDTD1D----------------------------------
+
+Explicit Finite Difference Time Domain Method.
+Format of data via integration is as follows:
+
+Spatial Coordinate | real(psi) | imag(psi) | |psi|² 
+
+Decay:
+To get energy of wave use fitprogram like GNUPLOT with 
+'decay.txt'
+
+First column is the elapsed time, second and third column are 
+the real and imaginary parts.
+
+---------------------FDTD3D----------------------------------
+
+Explicit Finite Difference Time Domain Method in three dimen-
+sions.
+Format of data is as follows:
+
+x-Coordinate | y-Coordinate | z-Coordinate | real(psi) | imag(psi) | |psi|² 
+
+-------------------------------------------------------------
+To edit parameters change code in .cpp file
+(Be careful if changing Number of Nodes in FDTD3D, very memory consuming)
+
+To run program go to directory of .cpp file and type in the console:
+g++ Filename.cpp -o Progname
+and then
+./Progname 
